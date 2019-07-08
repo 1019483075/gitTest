@@ -30,3 +30,5 @@ Mock.mock("/news/index", "get", produceNewsData);
 let stest = "新增一条语句";
 
 let stest2 = "新增的另外一条语句";
+
+let test3 = "临时修改";
