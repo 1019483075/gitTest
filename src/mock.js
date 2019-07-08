@@ -215,3 +215,5 @@ console.log(Random.weekday());
 // 新增一条备注
 
 let stest = "新增一条语句";
+
+let stest2 = "新增的另外一条语句";
