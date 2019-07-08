@@ -209,3 +209,5 @@ Random.extend({
 });
 console.log(Random.weekday());
 //                                                                 Mock.mock的具体案例
+
+// 新增一条备注
