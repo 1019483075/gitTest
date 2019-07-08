@@ -88,7 +88,9 @@ Mock.mock("/test", "get", {
   boo1: "@boolean", //随机获取boolean值
   img: "@image", //随机获取图片路径
   name: "@name", //随机获取名字
-  'winner|': () => { return Random.cname() }
+  "winner|": () => {
+    return Random.cname();
+  }
 });
 
 //                                                                 生成规则的具体案例 DTD
@@ -211,3 +213,5 @@ console.log(Random.weekday());
 //                                                                 Mock.mock的具体案例
 
 // 新增一条备注
+
+let stest = "新增一条语句";
